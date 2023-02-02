@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width"=device-width, initial-scale=1.0">
+    <meta name="author" content="Yerlin Amador Lopez"/>
+    <title>Hoja de vida</title>
+    <!--Conexión de Index.ccs el cual es donde se crea el formato de la página-->
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+
+    <!--Barra de navegación-->
+    <br>
+    <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Información</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Contactos</a></li>
+    </ul>
+    <br>
+    
+    <!--Class es una forma de identificar los objetos como lo es igual con la palabra "id"-->
+    <div class="inicio">
+            <div class="img">
+                <img src="imagenes/foto2.jpg" alt="">
+            </div>
+            <div class="name">
+                <br><br><br>
+                <h1>Yerlin Daniela Amador López</h1>
+            </div>
+    </div>
+
+    <div class="info">
+        <table class="personal" align="center" cellspacing="2" cellpadding=""2 border="3">
+            <!--Indica el formato del título de la tabla-->
+            <tr>
+                <th colspan="4" align="center"><strong>Información Personal</strong> </th>
+            </tr>
+
+            <tr>
+            <th>Dirreción</th>
+            <th>Teléfono</th>
+            <th>Correo</th>
+            </tr>
+
+            <tr>
+                <td>Villa Bonita, Alajuela</td>
+                <td>6186-2119</td>
+                <td><a href="https://mail.google.com/mail/u/0/#inbox">amadorlopezdaniela@gmail.com</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="info">
+        <table class="personal" align="center" cellspacing="2" cellpadding=""2 border="3">
+            <tr>
+                <th colspan="4" align="center" <strong>Educación</strong> </th>
+            </tr>
+            <tr>
+                <th>Liceo Tres Equis</th>
+                <td>2014 - 2018</td>
+                <td>Bachillerato en eduacación media</td>
+                
+            </tr>
+            <tr>
+                <th><a href="https://www.utn.ac.cr/">Universidad Técnica Nacional</a></th>
+                <td>2019 - Actualmente</td>
+                <td>Ingeniería del Software</td>
+                </tr>
+
+            <tr>
+            <th>Instituto Técnico Incoex</th>
+            <td>2022 - Actualmente</td>
+            <td>Inglés conversacional</td>
+            </tr>
+
+          
+        </table>
+    </div>
+
+    <!--Creación de una lista con dependencias-->
+    <div class="cursos">
+        <p class="titulo1">Cursos especializados</p>
+        <li>Cisco Networking Academy
+            <ul>
+                <li>Mayo 2019 - Julio 2019</li>
+                <li>Introducción a internet de las cosas</li>
+            </ul>
+        </li>
+
+        <li>Instituto Técnico Incoex
+            <ul>
+                <li>Agosto 2021 - Septiembre 2021</li>
+                <li>Servicio al cliente</li>
+            </ul>
+        </li>
+        <li>Cisco Networking Academy
+            <ul>
+                <li>Octubre 2021 - Noviembre 2021</li>
+                <li>CCNA: Introducción a las redes</li>
+            </ul>
+        </li>
+
+        <li>Cisco Networking Academy
+            <ul>
+                <li>Noviembre 2021 - Enero 2022</li>
+                <li>CCNA: Conmutación de enrutamiento y fundamentos inalámbricos</li>
+            </ul>
+        </li>
+        <li>Cisco Networking Academy
+            <ul>
+                <li>Enero 2022 - Febrero 2022</li>
+                <li>CCNA: Redes empresariales, seguridad y automatización</li>
+            </ul>
+        </li>
+    </div>
+
+    <!--Lista con orden numérico-->
+    <div class="competencias">
+        <p class="titulo2">Compentencias</p>
+        <ol>
+            <li>Técnicas de comunicación efectiva</li>
+             <li>Trabajo en equipo</li>
+             <li>Responsable</li>
+             <li>Liderazgo</li>
+             <li>Puntual</li>
+        </ol>
+             
+    </div>
+
+    <div class="hobbies">
+        <p class="titulo3">Hobbies</p>
+        <ol>
+            <li>Voluntariado Ambiental</li>
+            <li>Video Juegos</li>
+             <li><a href="https://instagram.com/arts_michis?igshid=YmMyMTA2M2Y=">Fotografía</a></li>
+             <li>Meditación</li>
+             <li>Astrología</li>
+             <li>Campismo</li>
+             <li>Voleibol</li>
+             <li>Lectura</li>
+             <li>Dibujo</li>
+             <li>Legos</li>
+            
+        </ol>
+             
+    </div>
+    <footer id = "footer">
+        <credit> &copy; Derechos Reservados ISW UTN I-2023 </credit>
+        <div id="date"> Feb 2, 2023</div>
+        <script>
+            document.getElementById("date").innerHTML = new Date().toDateString()
+        </script>
+    </footer>
+</body>
+</html>
